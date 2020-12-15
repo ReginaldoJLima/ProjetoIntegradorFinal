@@ -9,6 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link  rel="shortcut icon"  href="app/assets/img/senacsenac.png">
   <title>Painel Administrativo</title>
 
   <!-- Google Font: Source Sans Pro -->
@@ -50,12 +51,12 @@
       <div id="cadastro">
        
         <form method="post" action="cpanel.php?pg=cpanel">
-          <h1>Painel Adm</h1>
-          <p>
+          <h1 id="pnltxt">Painel Administrativo</h1>
+          <p id="larguraespaço">
             <label for="email_cad">Usuário:</label>
             <input id="email_cad" name="nome" required="required" type="text" placeholder="" />
           </p>
-          <p>
+          <p id="larguraespaço">
             <label for="senha_cad">Senha:</label>
             <input id="senha_cad" name="senha" required="required" type="password" placeholder="" />
           </p>
